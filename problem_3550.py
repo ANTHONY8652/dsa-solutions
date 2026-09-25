@@ -14,8 +14,6 @@ print(SmallestIndex([1,5,6,4]))
 print(SmallestIndex([2,3,1]))
 print(SmallestIndex([1,10,11]))
 
-"""
-
 class Solution:
     def smallestIndex(self, nums:list[int]) -> int:
         for i, num in enumerate(nums):
@@ -24,4 +22,3 @@ class Solution:
         return -1
 
 [1,3,2]
-"""
