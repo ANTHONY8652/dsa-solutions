@@ -1,3 +1,7 @@
+#Time complexity O(N)
+#Concatenating takes O(N)
+#Searching takes O(N) (normally)
+
 class Solution:
     def rotate_string(self, s:str, goal:str) -> bool:
         #CHeck if the length of s and goal are the same if they are not they can't be the same rotated
