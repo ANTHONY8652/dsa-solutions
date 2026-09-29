@@ -9,8 +9,6 @@ class Solution:
         
         #Use find to search if 's' concatenated 's' contains goal anywhere
         return doubled_string.find(goal) != -1
-#s = "abcde"
-#goal = "cdeab"
 
 solution=Solution()
 print(solution.rotate_string("abcde", "cdeab"))
