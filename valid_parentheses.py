@@ -6,6 +6,7 @@ class Solution:
         closeToOpen = {")" : "(", "}" : "{", "]" : "["}
         
         for c in s:
+            print(c, stack)
             if stack and stack[-1] == closeToOpen[c]:
                 stack.pop()
             else:
@@ -13,3 +14,6 @@ class Solution:
         else:
             stack.append(c)
         return True if not stack else False
+
+solution = Solution()
+print(solution.isValid("()"))
